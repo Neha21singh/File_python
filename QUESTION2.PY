@@ -1,0 +1,6 @@
+f=open('people2.txt',mode='r+')
+# data=f.readlines()
+f.write('priyanka - shimla\nneela - delhi\nsashi - jaipur\nsarika - delhi\ndeepti - shimla\nharshad - delhi\ntrishna - delhi\npradeep - jaipur\nsekhar - delhi\nnand - delhi\nanoop - delhi\nbalwinder - jaipur')
+data=f.readlines()
+print(len(data))
+f.close()

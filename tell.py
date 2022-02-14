@@ -1,0 +1,11 @@
+f=open('student.text',mode='r')
+data1=f.read(5)
+print(data1)
+print(f.tell())
+f.close()
+f=open('student.text',mode='r')
+data1=f.read()
+print(data1)
+print(f.seek(2))
+f.close()
+
